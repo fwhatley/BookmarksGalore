@@ -16,6 +16,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ViewsampleModule} from './views/viewsample/viewsample.module';
 import {PagesModule} from './views/pages/pages.module';
 import {UiComponentsModule} from './ui.components/ui.components.module';
+import {ServicesModule} from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -35,11 +36,13 @@ import {UiComponentsModule} from './ui.components/ui.components.module';
     HttpClientModule,
 
     // custom modules
+    ServicesModule,
     UiComponentsModule,
     HomeModule,
     PagenotfoundModule,
     ViewsampleModule,
     PagesModule,
+
   ],
   bootstrap: [AppComponent]
 })
