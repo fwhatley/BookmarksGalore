@@ -19,6 +19,15 @@ const routes: Routes = [
     loadChildren: () => import('./views/home/home.module').then(m => m.HomeModule)
   },
   {
+    path: 'pages',
+    data: new RouteDataModel({
+      id: 'pages',
+      displayName: 'Pages',
+      link: '/pages'
+    }),
+    loadChildren: () => import('./views/pages/pages.module').then(m => m.PagesModule)
+  },
+  {
     path: 'viewsample',
     data: new RouteDataModel({
       id: 'viewsample',
