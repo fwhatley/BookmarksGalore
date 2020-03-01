@@ -1,0 +1,212 @@
+{
+  "users": {
+    "alovelace": {
+      "name": "Ada Lovelace",
+      "defaultpageid": "techpioneers",
+      "pages": {
+         "techpioneers": true,
+         "womentechmakers": true,
+         "newpage1": true
+      }
+    },
+    "fwhatley": {
+      "name": "Fredy Whatley",
+      "defaultpageid": "fredypage1",
+      "pages": {
+        "fredypage1": true,
+        "fredypage2": true
+      }
+    }
+  },
+  "pages": {
+    "techpioneers": {
+      "name": "Historical Tech Pioneers",
+      "description": "Historical Tech Pioneers description",
+      "isprivate": true,
+      "accessibleby": {
+        "alovelace": true,
+        "ghopper": true,
+        "eclarke": true
+      },
+      "urlgroups": [
+        {
+          "name": "name1",
+          "urls": [
+            {
+              "name": "name1",
+              "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "name2",
+          "urls": [
+            {
+              "name": "google",
+              "url": "google.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "name3",
+          "urls": [
+            {
+              "name": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        }
+      ]
+    },
+    "womentechmakers": {
+      "name": "this is name womentechmakers",
+      "isprivate": false,
+      "accessibleby": {},
+      "urlgroups": [
+        {
+          "name": "name1",
+          "urls": [
+            {
+              "name": "name1",
+              "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "name2",
+          "urls": [
+            {
+              "name": "google",
+              "url": "google.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "name3",
+          "urls": [
+            {
+              "name": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        }
+      ]
+    },
+    "fredypage1": {
+      "name": "fredypage1 name",
+      "isprivate": false,
+      "accessibleby": {},
+      "urlgroups": [
+        {
+          "name": "fredypage1 name1",
+          "urls": [
+            {
+              "name": "name1",
+              "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "fredypage1 name2",
+          "urls": [
+            {
+              "name": "google",
+              "url": "google.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "fredypage1 name3",
+          "urls": [
+            {
+              "name": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        }
+      ]
+    },
+    "fredypage2": {
+      "name": "fredypage2 name",
+      "isprivate": false,
+      "accessibleby": {},
+      "urlgroups": [
+        {
+          "name": "fredypage2fredypage2",
+          "urls": [
+            {
+              "name": "name1",
+              "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "fredypage2name2",
+          "urls": [
+            {
+              "name": "google",
+              "url": "google.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        },
+        {
+          "name": "fredypage2name3",
+          "urls": [
+            {
+              "name": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "name": "name1",
+              "url": "https://www.realtor.com/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

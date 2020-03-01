@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {OrdersService} from '../shared/orders.service';
+import {OrdersService} from '../../../services/orders.service';
+import {MailService} from '../../../services/mail.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-orders',
@@ -10,9 +12,9 @@ export class OrdersComponent implements OnInit {
 
   public coffees = [];
   public coffeeOrder = [];
-  constructor(public ordersService: OrdersService) { }
+  constructor(public ordersService: OrdersService, private  mailService: MailService) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.coffees = ['Americano', 'Flat White', 'Cappuccino', 'Latte', 'Espresso', 'Machiato', 'Mocha', 'Hot Chocolate', 'Tea'];
   }
 
@@ -33,6 +35,19 @@ export class OrdersComponent implements OnInit {
         /* do somthing here maybe claea the form or give a succes msg */
       });
 
+    //this.mailService.sendMail();
+
+    this.createContact();
+
   }
+
+  public createContact() {
+    this.ordersService.createContact().subscribe(
+      (res) => console.log(res),
+      (err) => console.log(err)
+    );
+  }
+
+
 
 }
