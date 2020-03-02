@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {BookmarkGroup} from '../../models/bookmark.group';
 
 @Component({
   selector: 'app-urlgroupcard',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UrlGroupCardComponent implements OnInit {
 
+  @Input() public bookmarkGroup: BookmarkGroup;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.bookmarkGroup = this.bookmarkGroup || undefined;
   }
 
 }

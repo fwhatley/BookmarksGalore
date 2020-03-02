@@ -9,9 +9,9 @@ import {UiComponentsModule} from '../../ui.components/ui.components.module';
     HomeComponent
   ],
   imports: [
+    UiComponentsModule,
     CommonModule,
-    HomeRoutingModule,
-    UiComponentsModule
+    HomeRoutingModule
   ],
   exports: [
     HomeComponent

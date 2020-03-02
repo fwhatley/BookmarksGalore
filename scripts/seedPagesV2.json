@@ -1,0 +1,70 @@
+{
+  "techpioneers1": {
+    "title": "Historical Tech Pioneers1",
+    "creatoruserid": "fwhatley",
+    "description": "Historical Tech Pioneers description1",
+    "isprivate": true,
+    "bookmarkgroups": [
+      {
+        "title": "Dev Tools",
+        "bookmarks": [
+          {
+            "name": "JSON formatter",
+            "url": "https://jsonformatter.org"
+          },
+          {
+            "name": "Diff checker",
+            "url": "https://www.diffchecker.com/diff"
+          }
+        ]
+      },
+      {
+        "title": "libraries",
+        "bookmarks": [
+          {
+            "name": "NgBootstrap",
+            "url": "https://ng-bootstrap.github.io/#/components/pagination/overview"
+          },
+          {
+            "name": "Bootstrap",
+            "url": "https://getbootstrap.com/docs/4.3/components/alerts/"
+          }
+        ]
+      }
+    ]
+  },
+  "techpioneers2": {
+    "title": "Historical Tech Pioneers2",
+    "creatoruserid": "fwhatley",
+    "description": "Historical Tech Pioneers description2",
+    "isprivate": true,
+    "bookmarkgroups": [
+      {
+        "title": "group1",
+        "bookmarks": [
+          {
+            "name": "name1",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+          },
+          {
+            "name": "name2",
+            "url": "https://www.realtor.com/"
+          }
+        ]
+      },
+      {
+        "title": "group2",
+        "bookmarks": [
+          {
+            "name": "name1",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+          },
+          {
+            "name": "name1",
+            "url": "https://www.realtor.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

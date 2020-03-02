@@ -6,3 +6,6 @@
 typings/
 
 node_modules/
+
+# secrets
+bookmarksgalore-firebase-adminsdk-hfyxl-490acbe535.json
