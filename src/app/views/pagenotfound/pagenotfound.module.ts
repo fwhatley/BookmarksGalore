@@ -10,9 +10,6 @@ import {PagenotfoundRoutingModule} from '../pagenotfound/pagenotfound.routing.mo
   imports: [
     CommonModule,
     PagenotfoundRoutingModule
-  ],
-  exports: [
-    PagenotfoundComponent
   ]
 })
 export class PagenotfoundModule { }
