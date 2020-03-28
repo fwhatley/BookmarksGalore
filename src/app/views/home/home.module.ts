@@ -12,9 +12,6 @@ import {UiComponentsModule} from '../../ui.components/ui.components.module';
     UiComponentsModule,
     CommonModule,
     HomeRoutingModule
-  ],
-  exports: [
-    HomeComponent
   ]
 })
 export class HomeModule { }

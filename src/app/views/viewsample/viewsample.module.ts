@@ -17,11 +17,6 @@ import {FormsModule} from '@angular/forms';
     CommonModule,
     ViewsampleRoutingModule,
     FormsModule
-  ],
-  exports: [
-    ViewsampleComponent,
-    OrderListComponent,
-    OrdersComponent
   ]
 })
 export class ViewsampleModule { }

@@ -16,9 +16,6 @@ import {PagesRoutingModule} from './pages.routing.module';
   imports: [
     CommonModule,
     PagesRoutingModule
-  ],
-  exports: [
-    PagesComponent,
   ]
 })
 export class PagesModule { }
